@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-mario {
+    width: 300px;
+}
+
+.imagem-mario-luigi {
+    height: 600px;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video-mario {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.mascara-video {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.botao-fale {
+    height: 40px;
+    width: 200px;
+    background: #C51111;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao-form {
+    height: 40px;
+    width: 300px;
+    background: #C51111;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fale-conosco {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    position: fixed;
+    opacity: 0;
+    z-index: 4;
+    transition: opacity 1s;
+}
+
+input {
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline-color: chartreuse;
+}
+
+textarea {
+    height: 90px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+    outline-color: chartreuse;
+}
+
+.mascara-form {
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        display: inline;
+        width: 100vh;
+        height: 100vw;
+    }
+
+    .caixa-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 50%;
+    }
+
+    p {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .imagem-mario-luigi {
+        display: inline-block;
+        margin: 5px auto 5px auto;
+    }
+
+    .caixa-video-mario {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .fale-conosco {
+        position: fixed;
+        display: flex;
+        top: 20%;
+        left: 20%;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+}
