@@ -46,16 +46,20 @@
         let faleConosco = document.querySelector(".botao-fale")
 
 
+
         function cliqueiNoBotao() {
             formulario.style.opacity = 1
             mascara.style.visibility = "visible"
             faleConosco.style.zIndex = "4"
+            faleConosco.style.width = "10px"
+
         }
 
         function sumirFormulario() {
             formulario.style.opacity = 0
             mascara.style.visibility = "hidden"
             faleConosco.style.zIndex = "5"
+            faleConosco.style.width = "200px"
         }
 
     </script>
