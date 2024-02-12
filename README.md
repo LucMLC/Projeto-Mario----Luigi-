@@ -50,7 +50,7 @@ acima. Estamos sempre abertos a novas ideias e sugestões.</p>
 
 <h2>Autor</h2>
 
-<p>O Encanador Super Mario foi desenvolvido por <a href="https://github.com/seu-usuario">Nome do Desenvolvedor</a>.
+<p>O Encanador Super Mario foi desenvolvido por <a href="https://github.com/LucMLC">Martinez software engineer</a>.
 </p>
 
 <h2>Licença</h2>
