@@ -1,5 +1,5 @@
 <h1> Deploy </h1>
-<a href="https://marioluigii.netlify.app/"> Projeto no ar </a>
+<a href="https://marioluigii.netlify.app/"> Projeto publicado </a>
 
 <h1>Encanador Super Mario</h1>
 
