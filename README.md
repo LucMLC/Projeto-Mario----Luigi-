@@ -3,7 +3,8 @@
 
 <h1>Encanador Super Mario</h1>
 
-<img src="https://marioluigii.netlify.app/images/logo.png" alt="Encanador Super Mario Logo">
+<img src="./assets/Captura de tela 2024-02-12 165129.png" alt="Encanador Super Mario Logo">
+<img src="./assets/Captura de tela 2024-02-12 165159.png" alt="Encanador Super Mario Logo">
 
 <p>Bem-vindo ao repositório oficial do Encanador Super Mario, um serviço de encanamento com tema inspirado no famoso
 personagem de videogame. Este projeto foi criado para oferecer serviços de encanamento de forma divertida e
